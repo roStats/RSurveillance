@@ -3,8 +3,10 @@ Type: Package
 Title: Design and Analysis of Disease Surveillance Activities
 Version: 0.2.1
 Date: 2020-06-23
-Author: Evan Sergeant
-Maintainer: Rohan Sadler <rohan.sadler@ausvet.com.au>
+Authors@R: c(
+    person("Evan", "Sergeant", role = "aut"),
+    person("Rohan", "Sadler", role = c("aut", "cre"), email = "rohan.sadler@ausvet.com.au")
+  )
 Description: A range of functions for the design and
     analysis of disease surveillance activities. These functions were
     originally developed for animal health surveillance activities but can be
